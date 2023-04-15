@@ -1,0 +1,133 @@
+div.amazing-supermarket {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1304px;
+  height: 102px;
+  background-color: #f5f9ec;
+  margin: 0 auto;
+  border-radius: 16px;
+}
+div.supermarket-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 511px;
+  height: inherit;
+}
+div.supermarket-boxone {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: 466.51px;
+  height: 62px;
+  margin: 20px 45px;
+}
+div.supermarket-boxone-image {
+  display: flex;
+  width: 66px;
+  height: inherit;
+}
+div.supermarket-boxone-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 290px;
+  height: 28px;
+}
+div.supermarket-boxone-butom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110.51px;
+  height: 28px;
+  background-color: #39ae00;
+  border-radius: 30px;
+}
+div.supermarket-boxone-butom>a{
+text-decoration: none;
+color: #ffffff;
+}
+div.supermarket-boxone-butom > span {
+  display: block;
+  line-height: 28px;
+  text-align: center;
+  font-size: 14px;
+  color: #ffffff;
+}
+div.supermarket-off {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 633px;
+  height: 74px;
+}
+div.off-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 492px;
+  height: inherit;
+}
+div.off-two {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 141px;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 9999px;
+  margin-right: 10px;
+}
+div.off-two-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 73px;
+  height: 26.04px;
+ 
+}
+div.off-two-text>a{
+  text-decoration: none;
+  font-size: 12px;
+  color: #39ae00;
+}
+div.off-two-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  margin-right: 7px;
+  color: #39ae00;
+  font-size: 16px;
+}
+div.off-item {
+  position: relative;
+  width: 74px;
+  height: 74px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+div.off-item > img {
+  width: inherit;
+  height: inherit;
+  border-radius: 50%;
+  object-fit: contain;
+}
+div.off-percent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  position: absolute;
+  width: 34px;
+  height: 20px;
+  background-color: #ef394f;
+  border-radius: 16px;
+  color: #ffffff;
+  font-size: 12px;
+  bottom: 0;
+}

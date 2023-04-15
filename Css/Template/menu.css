@@ -1,0 +1,50 @@
+/* @font-face{
+    font-family: FontWebsite; 
+    src: url(/Fonts/iranyekanwebmediumfanum.ttf);
+}
+body{
+    font-family: FontWebsite;
+}
+
+
+
+
+
+div.menu {
+  display: flex;
+  width: 861.13px;
+  height: 40px;
+  background-color: antiquewhite;
+}
+nav {
+  display: flex;
+  width: 861.13px;
+  height: 40px;
+  background-color: antiquewhite;
+}
+* {
+  text-decoration: none;
+  direction: rtl;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+div.menu > nav > ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: inherit;
+  height: inherit;
+  background-color: aqua;
+  margin: 1px;
+}
+div.menu > nav > ul>li>a{
+    font-size: 12px;
+    color: #62666d;
+    background-color: lightblue;
+}
+li:nth-child(2){
+    font-size: 16px;
+    font-weight: bold;
+} */

@@ -1,0 +1,65 @@
+div.suggestion {
+  display: flex;
+  flex-direction: column;
+  width: 1304px;
+  height: 387.3px;
+  margin: 0 auto;
+}
+
+div.suggestion-boxone {
+  width: 1304px;
+  height: 76.1px;
+  padding: 16px 0px;
+  text-align: center;
+  outline: none;
+}
+div.suggestion > h2 {
+  font-size: 21px;
+  font-weight: 900;
+  color: #0c0c0c;
+}
+div.suggestion-boxtwo {
+  display: flex;
+  flex-direction: column;
+  width: 1304px;
+  height: 309.2px;
+  border-radius: 16px;
+}
+div.suggestion-bowtwo-top {
+  display: flex;
+  width: inherit;
+  height: 154.6px;
+}
+div.suggestion-bowtwo-bottom {
+  display: flex;
+  width: inherit;
+  height: 154.6px;
+}
+div.suggestion-top-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 186.2px;
+  height: 154.1px;
+  border: 1px solid #f4f4f6;
+ cursor: pointer;
+}
+div.suggestion-picture {
+  display: flex;
+  justify-content: center;
+  width: inherit;
+  height: 84px;
+}
+div.suggestion-picture > img {
+  width: 84px;
+  height: 84px;
+}
+div.suggestion-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: inherit;
+  height: 38px;
+  color: #0c0c0c;
+  font-size: 14px;
+}

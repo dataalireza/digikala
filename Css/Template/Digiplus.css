@@ -1,0 +1,140 @@
+div.digiplus {
+  display: flex;
+  width: 1304px;
+  height: 388px;
+  background-color: #a63489;
+  margin: 0 auto;
+  border-radius: 16px;
+  padding: 16px;
+}
+div.digiplus-two {
+  display: flex;
+  width: 876px;
+  height: 356px;
+}
+div.digiplus-two > div.digiplus-two-item:nth-child(2) {
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+}
+div.digiplus-two > div.digiplus-two-item:nth-child(1) {
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+}
+div.digiplus-one {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 384px;
+  height: 356px;
+  margin-left: 12px;
+  
+}
+div.digiplus-one>img{
+  position: absolute;
+  width: 384px;
+  height: 283px;
+  margin-top: 65px;
+}
+div.digiplus-one-item {
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  width: 384px;
+  height: 114.14px;
+  margin-top: 24px;
+  margin-right: 25px;
+}
+div.digiplus-one-logo {
+  width: 128px;
+  height: 32px;
+}
+div.digiplus-one-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 207.74px;
+  height: 30.1px;
+  font-size: 14px;
+  color: #ffffff;
+}
+div.digiplus-one-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 103.812px;
+  margin-top: 12px;
+  height: 34.38px;
+  background-color: #a63489;
+  border: 1px solid #fff;
+  border-radius: 8px;
+}
+div.digiplus-one-submit>p{
+  font-size: 12px;
+  color: #ffffff;
+}
+div.digiplus-one-submit>div{
+  font-size: 16px;
+  color: #ffffff;
+  margin-right: 14px;
+}
+div.digiplus-two-item {
+  width: 436px;
+  height: 356px;
+  background-color: #ffffff;
+  margin-left: 5px;
+  padding: 0 16px;
+}
+div.digiplus-item-heade {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 404px;
+  height: 66.4px;
+  padding: 16px 0;
+}
+div.digiplus-item-image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 404px;
+  height: 269.6px;
+}
+div.digiplus-pic > img {
+  width: inherit;
+  height: inherit;
+}
+div.digiplus-head-right {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 105.66px;
+  height: 34.4px;
+  font-size: 16px;
+  color: #0c0c0c;
+}
+div.digiplus-head-right > div {
+  font-size: 14px;
+  color: #a63489;
+}
+div.digiplus-head-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85.59px;
+  height: 26.4px;
+}
+div.digiplus-head-left > p {
+  font-size: 12px;
+  color: #a63489;
+  margin-right: 5px;
+}
+div.digiplus-head-left > div {
+  font-size: 12px;
+  color: #a63489;
+  margin-right: 5px;
+}
+div.digiplus-pic {
+  width: 116px;
+  height: 116px;
+}

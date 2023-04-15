@@ -1,0 +1,22 @@
+div.readings{
+    width: 1304px;
+    height: 66.400px;
+    margin: 0 auto;
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.readings-righte{
+    width: 69.46px;
+    height: 34.4px;
+
+    font-size: 16px;
+    color: #0c0c0c;
+}
+div.readings-left{
+    width: 177.43px;
+    height: 30.1px;
+    font-size: 14px;
+    color: #19bfd3;
+}

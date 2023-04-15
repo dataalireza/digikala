@@ -1,0 +1,13 @@
+div.paystore{
+    width: 1304px;
+    height: 163px;
+    background-color: aqua;
+    margin: 24px auto;
+    border-radius: 16px;
+    cursor: pointer;
+}
+div.paystore>img{
+    width: inherit;
+    height: inherit;
+    border-radius: 16px;
+}

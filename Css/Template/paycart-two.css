@@ -1,0 +1,20 @@
+div.paycart-two{
+    cursor: pointer;
+    display: flex;
+    justify-content:space-around;
+    width: 1304px;
+    height: 235.5px;
+    margin: 24px auto;
+    border-radius: 16px;
+}
+div.paycart-box-cart>a>img{
+    width: 314px;
+    height: inherit;
+    border-radius: 16px;
+}
+div.paycart-box-cart>img{
+    width: 314px;
+    height: inherit;
+    object-fit: cover;
+    border-radius: 16px;
+}

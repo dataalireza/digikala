@@ -1,0 +1,263 @@
+div.navbar {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  border-bottom: 0.5px solid rgb(224, 219, 219);
+  box-shadow: 0.5px 0.5px 0.5px rgb(224, 219, 219);
+  margin: 0 auto;
+  padding: 0 16px;
+}
+div.navabr-onebox {
+  position: relative;
+  display: flex;
+  width: auto;
+  height: inherit;
+}
+div.navbar-product-classification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 142.05px;
+  height: inherit;
+  position: relative;
+}
+div.navbar-product-classification:hover>div.navbar-product-text > ul{
+  display: block;
+}
+div.navbar-product-hmg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 40px;
+  color: #424750;
+  position: absolute;
+  right: 0;
+}
+div.navbar-product-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 124px;
+  height: inherit;
+  font-size: 13px;
+  color: #424750;
+  font-weight: bold;
+  position: absolute;
+}
+
+div.navbar-product-text > ul {
+  display: none;
+  width: 1470px;
+  list-style: none;
+  height: 500px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 40px;
+  z-index: 111;
+  right: 0;
+}
+div.navbar-product-text > ul > li {
+  display: flex;
+  align-items: center;
+  padding: 12px 8px;
+  display: flex;
+  width: 183px;
+  height: 45.5px;
+
+}
+div.navbar-product-text > ul > li > a {
+  display: flex;
+  align-items: center;
+  width: 183px;
+  height: 26.04px;
+  background-color: #ffffff;
+  text-decoration: none;
+  color: #424750;
+  font-size: 12px;
+}
+div.navbar-product-text > ul > li > a > div {
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  width: 18px;
+  height: 18px;
+  color: #424750;
+}
+div.navbar-product-classification > span {
+  color: #e0e0e2;
+}
+div.super-market {
+  display: flex;
+  width: 101.64px;
+  height: inherit;
+  padding: 0px 12px;
+}
+div.market-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18px;
+  height: inherit;
+  color: #a1a3a8;
+}
+div.market-text > a {
+  text-decoration: none;
+  margin-right: 5px;
+  text-align: center;
+  line-height: 40px;
+  width: 69.55px;
+  height: inherit;
+  font-size: 12px;
+  color: #62666d;
+}
+div.best-sales-text > a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #62666d;
+}
+div.navbar-amazing-text > a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #62666d;
+}
+div.navbar-discount-text > a {
+  font-size: 12px;
+  color: #62666d;
+  text-decoration: none;
+}
+div.best-sales {
+  display: flex;
+  width: 120.88px;
+  height: inherit;
+  padding: 0 9px;
+}
+div.best-sales-icon {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 20px;
+  height: inherit;
+  color: #a1a3a8;
+}
+div.best-sales-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 94px;
+  height: inherit;
+  font-size: 12px;
+  color: #424750;
+}
+div.navbar-discount {
+  display: flex;
+  width: 159.88px;
+  height: inherit;
+  padding: 0 9px;
+}
+div.navbar-discount-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18px;
+  height: inherit;
+  color: #a1a3a8;
+}
+div.navbar-discount-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 132.34px;
+  height: inherit;
+  font-size: 12px;
+  color: #62666d;
+}
+div.navbar-amazing {
+  display: flex;
+  width: 115.9px;
+  height: inherit;
+  padding: 0 12px;
+}
+div.navbar-amazing-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18px;
+  height: inherit;
+  color: #a1a3a8;
+}
+div.navbar-amazing-text {
+  width: 87.38px;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: #62666d;
+  padding: 0 8px;
+}
+div.navbar-amazing > div.span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  padding: 0 6px;
+  color: #e0e0e2;
+}
+div.navbar-question {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 89.31px;
+  height: inherit;
+  font-size: 12px;
+  margin: 0px 6px;
+  color: #62666d;
+}
+div.navbar-sales-digi {
+  width: 131.48px;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: #62666d;
+}
+div.navbar-boxtwo {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 634.87px;
+  height: inherit;
+}
+div.navbar-boxtwo-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: #62666d;
+}
+div.navbar-boxtwo-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: inherit;
+  color: #424750;
+  margin-left: 5px;
+}
+div.navbar-product-classification > ul > li {
+  display: none;
+  z-index: 2;
+  width: 199px;
+  position: relative;
+  height: 51.4px;
+  background-color: deepskyblue;
+  list-style: none;
+  right: 30px;
+  top: 303px;
+  color: #424750;
+  padding: 15px;
+  cursor: pointer;
+}

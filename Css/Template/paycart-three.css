@@ -1,0 +1,18 @@
+div.paycart-three {
+  display: flex;
+  justify-content: space-between;
+  width: 1304px;
+  height: 257.6px;
+  margin: 24px auto;
+  
+}
+div.paycart-three-one {
+  width: 644px;
+  height: inherit;
+  cursor: pointer;
+}
+div.paycart-three-one > img {
+  width: 644px;
+  height: inherit;
+  border-radius: 16px;
+}

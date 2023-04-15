@@ -1,0 +1,32 @@
+div.selection {
+  display: flex;
+  justify-content: space-between;
+  width: 1304px;
+  height: 275.1px;
+  margin: 0 auto;
+}
+div.selection-item {
+  cursor: pointer;
+  width: 317px;
+  height: 275.1px;
+  border: 1px solid #e0e0e2;
+  border-radius: 8px;
+}
+div.selection-item-pic {
+  width: 317px;
+  height: 196.23px;
+}
+div.selection-item-pic > img {
+  width: 317px;
+  height: 196.23px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  object-fit: cover;
+}
+div.selection-item-text {
+  width: 283px;
+  height: 52.075px;
+  margin: 16px 16px 12px 16px;
+  font-size: 12px;
+  color: #0c0c0c;
+}

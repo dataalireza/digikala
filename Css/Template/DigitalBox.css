@@ -1,0 +1,98 @@
+div.digitalbox {
+  display: flex;
+  width: 1304px;
+  height: 420.65px;
+  margin: 24px auto;
+  border-radius: 16px;
+  border: 1px solid #e0e0e2;
+}
+div.digital-store {
+  width: 324.75px;
+  height: 420.65px;
+  border-right: 1px solid #ececee;
+}
+div.digital-store-mobile {
+  width: 324.75px;
+  height: 420.65px;
+}
+div.digital-container {
+  display: flex;
+  flex-direction: column;
+  width: 324.75px;
+  height: auto;
+  padding: 8px 20px;
+}
+div.digital-text {
+  width: 284.75px;
+  height: 66.26px;
+  background-color: #ffffff;
+}
+div.digital-text > h4 {
+  width: auto;
+  height: 34.4px;
+  font-size: 16px;
+  color: #232933;
+  line-height: 34.4px;
+  margin-bottom: 4px;
+}
+div.digital-text > p {
+  font-size: 11px;
+  color: #81858b;
+}
+div.digital-image {
+  display: flex;
+  flex-direction: column;
+  width: 284.75px;
+  height: 294.35px;
+
+}
+div.digital-image-one {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 284.75px;
+  height: 148.675px;
+}
+div.digital-image-two {
+  display: flex;
+  justify-content: center;
+  width: inherit;
+  height: 148.675px;
+}
+div.digital-sale {
+  display: flex;
+  justify-content: center;
+  width: 125.875px;
+  height: 150.675px;
+  padding: 8px;
+  margin: 0 8px;
+}
+div.digital-link {
+  width: 284.75px;
+  height: 42.038px;
+}
+div.digital-see{
+    display: flex;
+    width: 58.25px;
+    height: 26.04px;
+    margin: 8px auto;
+}
+div.see-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40.25px;
+    height: inherit;
+    font-size: 12px;
+    color: #19bfd3;
+    
+}
+div.see-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: inherit;
+    font-size: 12px;
+    color: #19bfd3;
+}

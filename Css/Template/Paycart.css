@@ -1,0 +1,66 @@
+div.paycart {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 1304px;
+  height: 112px;
+  margin: 0 auto;
+}
+div.paycart-contianer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+}
+div.paycart-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: inherit;
+  cursor: pointer;
+}
+div.paycart-picture>a>img {
+  width: 52px;
+  height: 52px;
+}
+div.paycart-text {
+  display: block;
+  line-height: 28px;
+  width: auto;
+  height: 28px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #424750;
+}
+div.paycart-picture {
+  width: 52px;
+  height: 52px;
+  object-fit: fill;
+}
+div.paycart-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+    height: inherit;
+    border-radius: 52px;
+    background-color: #f0f0f1;
+}
+div.paycart-box-point{
+    display: flex;
+    justify-content: space-around   ;
+    flex-direction: row;
+    align-items: center;
+    width: 21px;
+    height: 21px;
+}
+div.paycart-point{
+    width: 5px;
+    height: 5px;
+    background-color: #a1a3a8;
+    border-radius: 5px;
+
+}

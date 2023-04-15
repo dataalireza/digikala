@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    direction: rtl;
+    box-sizing: border-box;
+}
+div.wrapper{
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+}
+@font-face{
+    font-family: FontWebsite; 
+    src: url(/Fonts/iranyekanwebmediumfanum.ttf);
+}
+body{
+    font-family: FontWebsite;
+}

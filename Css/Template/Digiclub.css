@@ -1,0 +1,87 @@
+div.digiclub {
+  display: flex;
+  justify-content: space-between;
+  width: 1304px;
+  height: 88px;
+  background-color: #007295;
+  margin: 8px auto;
+  border-radius: 16px;
+  padding: 12px 16px;
+}
+
+div.digiclub-icon {
+  width: 119px;
+  height: 33px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+div.digiclub-icon > img {
+  width: 119px;
+  height: 33px;
+}
+div.digiclub-cards {
+  display: flex;
+  justify-content: space-between;
+  width: 814.39px;
+  height: 64px;
+}
+div.digiclub-box-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 273.99px;
+  height: 64px;
+  background-color: #ffffff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+}
+div.digiclub-box-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 275.1px;
+  height: 64px;
+  background-color: #ffffff;
+}
+div.digiclub-box-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 257.3px;
+  height: 64px;
+  background-color: #ffffff;
+  cursor: pointer;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+div.digiclub-pic {
+  width: 168px;
+  height: 60px;
+}
+div.digiclub-pic > img {
+  width: 168px;
+  height: 60px;
+}
+div.digiclub-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95.99px;
+  height: 26.04px;
+  margin-right: 16px;
+  color: #0c0c0c;
+  font-size: 12px;
+}
+div.digiclub-text-icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 20px;
+  height: 20px;
+}
+div.digiclub-text-icon > span {
+  color: #00bfd6;
+  font-size: 16px;
+}
